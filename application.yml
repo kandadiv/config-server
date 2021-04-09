@@ -1,0 +1,16 @@
+spring:  
+  application:
+    name: Agreements
+  profiles:
+    active: local
+  security:
+    oauth2:
+      resourceserver:
+        jwt:         
+         issuer-uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_zgkHvtA9m 
+
+agr:
+ doc: Search Agreement by first name, last name, customer id, social security or agreement nuumber in given store, line of business or gloabl
+ 
+ cust:
+ search: Search customer by first name, last name, customer id, social security, fate fo birth or customer nuumber in given store, line of business or gloabl
