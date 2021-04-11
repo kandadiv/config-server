@@ -30,5 +30,5 @@ service:
   controller:
     doc: This controller used for finding agreement information with varios GET operations.
   searhcagreements:
-    doc: Search agreements by agreement id , agreement number , social security or  first name and  last name with status, type , line of bueinss parametersn. 
+    doc: Search agreements by agreement id , agreement number , social security or  first name &  last name with status, type , line of bueinss and store stores. By default it will return 10 records per page how ever it can be max of 100 records per page. First name and Last name at least to be 2 characters 
 
