@@ -1,12 +1,13 @@
+logging:
+  level:
+    com.self.sprintboot.learning.apigateway: DEBUG
+
 skip:
- security: N      
-      
+ security: N            
 
 spring:  
   application:
-    name: agreements
-  config:
-    import: optional:configserver:http://localhost:9296/
+    name: agreements  
       # main:
   #  allow-bean-definition-overriding: true
   profiles:
