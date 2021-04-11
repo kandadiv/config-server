@@ -1,18 +1,33 @@
+skip:
+ security: N      
+      
+
 spring:  
   application:
-    name: Agreements
+    name: agreements
+  config:
+    import: optional:configserver:http://localhost:9296/
+      # main:
+  #  allow-bean-definition-overriding: true
   profiles:
-    active: local
+    active: default
+  cloud:
+    config:
+      uri: http://localhost:9296/
   security:
     oauth2:
       resourceserver:
         jwt:         
          issuer-uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_zgkHvtA9m 
 
-agr:
- doc: Search Agreement by first name, last name, customer id, social security or agreement nuumber in given store, line of business or gloabl
- 
- cust:
- search: Search customer by first name, last name, customer id, social security, fate fo birth or customer nuumber in given store, line of business or gloabl
 
-vig.name: test poc
+management:
+  security:
+    enabled: false
+
+service:
+  controller:
+    doc: This controller used for finding agreement information with varios GET operations.
+  searhcagreements:
+    doc: Search agreements by first name, last name, agreement id, social security, fate fo birth or agreement number in given store, line of business or gloabl
+
