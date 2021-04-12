@@ -33,11 +33,10 @@ service:
     doc: Search agreements by agreement id , agreement number , social security or  first name &  last name with status, type , line of bueinss and store stores. By default it will return 10 records per page how ever it can be max of 100 records per page. First name and Last name at least to be 2 characters 
     
     
-    
-    ess:
-      service:
-        client:
-          ids:	EM,SIMS,TL,VAN,VA,SIA,RIN,HT,EC,SWIFT,SL,ML,MAR,ESB,ARCO,INF,RP,CPORT,T2A,BAT,WLRT,LTE,COMS,VER,RACPAD,WL,ESS,RCP,AWS,BMS,PLM,ATD,MPL,SSO,T2P,TPV
+ess:
+  service:
+    client:
+      ids:	EM,SIMS,TL,VAN,VA,SIA,RIN,HT,EC,SWIFT,SL,ML,MAR,ESB,ARCO,INF,RP,CPORT,T2A,BAT,WLRT,LTE,COMS,VER,RACPAD,WL,ESS,RCP,AWS,BMS,PLM,ATD,MPL,SSO,T2P,TPV
 
 searhcagreements:
   payload: Testing  Configuration
