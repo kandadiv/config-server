@@ -3,7 +3,7 @@ logging:
     com.self.sprintboot.learning.apigateway: DEBUG
 
 skip:
- security: Y            
+ security: N            
 
 spring:  
   application:
