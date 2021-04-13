@@ -40,3 +40,6 @@ ess:
 
 searhcagreements:
   payload: Testing  Configuration default
+
+cust:
+  search: test demo srinivas
