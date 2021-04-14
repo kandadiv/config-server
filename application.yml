@@ -41,4 +41,4 @@ searhcagreements:
   payload: Testing  Configuration default
 
 cust:
-  search: This service will be used for saving new customer. To save customer first name, last name, dob are minimum required
+  search: This service will be used for saving new customer. To save customer first name, last name, dob are minimum required DEMO
