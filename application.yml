@@ -6,8 +6,7 @@ skip:
  security: N            
 
 spring:  
-  application:
-    name: agreements  
+    
       # main:
   #  allow-bean-definition-overriding: true
   profiles:
