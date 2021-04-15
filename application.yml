@@ -21,9 +21,6 @@ spring:
          issuer-uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_zgkHvtA9m 
 
 
-management:
-  security:
-    enabled: false
 
 service:
   controller:
