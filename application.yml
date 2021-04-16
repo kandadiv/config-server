@@ -43,7 +43,7 @@ customer:
   updatecustomer:
     doc: Service will be used for updating exiting customer, customer id must be provided in order to update customer.
     
-cust100: First name is required.
+cust100: First name is reired.
 cust101: Last name is required.
 
 8: Invalid client id
