@@ -40,12 +40,12 @@ searhcagreements:
 customer:
   createcustomer:
     doc: Service will be used for creating new customer. To save customer first name, last name, date of birth or required.
-  updateCustomer:
+  updatecustomer:
     doc: Service will be used for updating exiting customer, customer id must be provided in order to update customer.
     
 cust100: First name is required.
 cust101: Last name is required.
 
-8: Invalid client id, check please
+8: Invalid client id
     
     
